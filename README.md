@@ -1,6 +1,6 @@
 ## Restricted Boltzmann Machine (RBM) Implementation
 
-![RBM](rbm_image.png)
+
 
 ## Overview
 
@@ -13,6 +13,12 @@ This repository contains an implementation of a Restricted Boltzmann Machine (RB
 - **Efficient Training:** Training RBMs typically involves techniques like Contrastive Divergence (CD) or Gibbs Sampling, which efficiently approximate the gradient of the log-likelihood function.
 - **Applications:** RBMs can be applied to various tasks, including collaborative filtering, dimensionality reduction, feature learning, and generating new data samples.
 
+## Datasets Used
+MNIST 
+This dataset consists of 60,000 training images and 10,000 testing images of handwritten digits, each being a grayscale image of size 28x28 pixels.
+
+Movie Lens
+This dataset contain 1,000,209 anonymous ratings of approximately 3,900 movies  made by 6,040 MovieLens users who joined MovieLens in 2000.
 ## Requirements
 
 - Python 3.x
